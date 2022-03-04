@@ -121,3 +121,128 @@ img {
     margin-right: 100px;
     margin-bottom: 10px;
 }
+
+/* player information part */
+
+main {
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+.main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.player {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    align-items: center;
+}
+.player-details {
+    width: 290px;
+    box-shadow: 5px 5px 15px 20px #f0eded;
+    border: 15px solid #fff;
+    border-radius: 5px;
+}
+.player-image img {
+    border-radius: 5px;
+}
+.player-info h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #18191F;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.player-info p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/*-----------------------------------
+          information part  
+-------------------------------------*/
+.copa-information {
+    display: flex;
+}
+.copa-info-item {
+    margin-top: 25px;
+    margin-right: 35px;
+}
+.copa-info-item h2 {
+    font-size: 37px;
+    font-weight: 700;
+}
+.copa-info-item p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.copa-button {
+    width: 173px;
+    background-color: #E02C6D;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.copa-button button {
+    padding: 20px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff ;
+    background-color: #E02C6D;
+    margin-left: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.copa-btn {
+    border: none;
+    
+}
+.copa-button i {
+    color: #fff;
+    font-size: 16px;
+}
+
+.copa-image img {
+    height: 427px;
+    width: 567px;
+}
+.image-item {
+    width: 100%;
+}
+
+ /* ==================
+    contact form css 
+ ======================*/
+ .contact-form {
+    text-align: center;
+    background-color: rgb(153, 164, 172);
+    border-radius: 10px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+
+}
+.name-field {
+    height: 40px;
+    width: 70%;
+    border-radius: 10px;
+    padding-left: 30px;
+    border: 2px solid rgb(25, 116, 66);
+    margin-bottom: 20px;
+}
+.age-area {
+    margin-bottom: 20px;
+}
+.btn {
+    margin-top: 30px;
+    padding: 20px 40px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
