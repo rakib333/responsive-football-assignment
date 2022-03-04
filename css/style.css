@@ -246,3 +246,99 @@ main {
     margin-right: 20px;
     cursor: pointer;
 }
+
+ /*--------------------- 
+       footer part 
+------------------------*/
+.footer-part-main {
+    margin-top: 140px;
+    margin-bottom: 150px;
+}
+.footer-part-main {
+    display: grid;
+    justify-content: center;
+}
+.footer-image img {
+    height: 110px;
+    width: 484px;
+}
+.footer-icon {
+    padding: 20px 160px;
+    display: flex;
+}
+.footer-icon i {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-right: 14px;
+    font-size: 17px;
+    color: #969BAB; 
+    height: 32px;
+    width: 32px;
+    background-color: rgba(159, 163, 177, 0.5);
+    border-radius: 50%;   
+}
+.footer-end p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer-end i {
+    font-size: 12px;
+}
+
+
+/*------------------------------------
+         media query for mobile
+-------------------------------------- */
+@media only screen and (max-width:688px) {
+    .nav {
+        display: none;
+    }
+    .container {
+        width: 100%;
+    }
+    /* header part */
+    
+    .header-main {
+        margin-left: 15px;
+    }
+    .header-details {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        grid-row-gap: 50px;
+    }
+    .header-banner img {
+        width: 330px;
+        height: 260px;
+    }
+    /* main part */
+    .player {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* information part */
+    .copa-information {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        grid-row-gap: 30px;
+        align-items: center;
+    }
+    .copa-info-item {
+        height: 299px;
+        width: 330px;
+    }
+    .copa-info-item h2 {
+        font-size: 34px;
+    }
+    .copa-image img {
+        height: 246px;
+        width: 330px;
+    }
+    .footer-image img{
+        height: 90px;
+        width: 306px;
+        margin-left: 83px;
+    }
+
+}
